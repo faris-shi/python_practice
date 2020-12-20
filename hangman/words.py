@@ -1,3 +1,4 @@
+# words comes from https://www.randomlists.com/data/words.json
 words = [
     "aback",
     "abaft",

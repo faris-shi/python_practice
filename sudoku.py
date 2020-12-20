@@ -1,3 +1,8 @@
+'''
+can be supposed to figure out backtracking algorithm through this exmaple
+
+reference: https://mp.weixin.qq.com/s/VCirGskFGPln-S2LGFTgKg
+'''
 import random
 
 class Block:
@@ -146,10 +151,14 @@ class Sudoku:
         output += " -----------------------\n"
         return output
 
-
+#build a sudoku
 sudoku = Sudoku()
 sudoku.build()
+
+#mask some blocks that you want
 sudoku.mask(1)
 print(sudoku)
+
+#solve soduku
 sudoku.solve()
 print(sudoku)
