@@ -7,7 +7,7 @@ It is a little project that I will practice Python daily.
 
 2. **Sudoku**
 
-   an example to figure out the backtracking algorithm. including how to build a sudoku, how to mask several blocks and how to solve it.
+   an example about figuring out the backtracking algorithm. including how to build a sudoku, how to mask several blocks and how to solve it.
 
 3. **Sets Operation**
 
