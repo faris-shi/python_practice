@@ -13,3 +13,5 @@ It is a little project that I will practice Python daily.
 
    practice sets operations such as `|`, `^`, `-`, `&`.
 
+4. **Snake Game**
+   a gui game using pygame.
