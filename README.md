@@ -16,3 +16,11 @@ It is a little project that I will practice Python daily.
 4. **Snake Game**
 
    a gui game using pygame.
+
+5. **Permutations**
+
+   practice permutations by using backtracking
+
+6. **N-Queens**
+
+   practice famous N-Queens by using backtracking
