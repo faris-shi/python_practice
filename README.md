@@ -24,3 +24,7 @@ It is a little project that I will practice Python daily.
 6. **N-Queens**
 
    practice famous N-Queens by using backtracking
+
+7. ***Minesweeper**
+
+   a command-line game of minesweeper
