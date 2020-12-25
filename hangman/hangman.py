@@ -1,7 +1,8 @@
 import random
 from words import words
 import string
-
+import os
+import time
 
 def get_random_word():
     word = random.choice(words)
@@ -17,7 +18,8 @@ def hangman(lives):
     alphabet = set(string.ascii_uppercase)
 
     while lives > 0 or (lives == -1 and len(word_letters) > 0):
-        print("------------------------------------------")
+        time.sleep(1)
+        os.system('clear')
 
         sorted_used_letters = list(used_letters)
         sorted_used_letters.sort()
@@ -47,8 +49,7 @@ def hangman(lives):
         print("Got it.")
         word_letters.remove(letter)
 
-    print("------------------------------------------")
-    
+    print("------------------------------------------")    
     if len(word_letters) > 0:
         print("The word:", word)
         print('You lost game.')

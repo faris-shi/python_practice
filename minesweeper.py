@@ -4,6 +4,8 @@ practice command-line inesweeper
 '''
 import random
 from enum import Enum
+import os
+import time
 
 class SpotType(Enum):
     '''
@@ -136,6 +138,8 @@ def play(dim_size = 10, num_bombs = 10):
         except AssertionError:
             print('Out of Bound. Try again!')
             continue
+        time.sleep(0.5)
+        os.system('clear')
 
     if result:
         print('Congratulation, you win')
