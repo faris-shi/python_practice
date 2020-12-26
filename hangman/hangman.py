@@ -11,20 +11,22 @@ def get_random_word():
     return word.upper()
 
 
-def hangman(lives):
+def hangman():
     word = get_random_word()
-    word_letters = set(word) #all letters that use has not guessed correctly
+    word_letters = set(word) #all letters that users have not guessed correctly
     used_letters = set()   #what user has guessed
     alphabet = set(string.ascii_uppercase)
 
-    while lives > 0 or (lives == -1 and len(word_letters) > 0):
+    #run until all letters have been guessed.
+    while len(word_letters) > 0:
         time.sleep(1)
-        os.system('clear')
+        os.system('clear') # clear terminal
 
         sorted_used_letters = list(used_letters)
         sorted_used_letters.sort()
         print('You have guessed these letters:', ' '.join(sorted_used_letters))
 
+        #display word which shows the guessed letters as normal, unguessed letters as '-'
         current_letters = [letter if letter in used_letters else '-' for letter in word]
         print('Current words: ', ' '.join(current_letters))
 
@@ -37,10 +39,6 @@ def hangman(lives):
             print('You have already guessed this character. Please try again.')
             continue
 
-        if lives != -1:
-            lives = lives - 1
-            print("The left lives:", lives)
-
         used_letters.add(letter)
         if letter not in word_letters:
             print('You did not guess correctly. Please try again.')
@@ -50,15 +48,14 @@ def hangman(lives):
         word_letters.remove(letter)
 
     print("------------------------------------------")    
+    print("The word:", word)
     if len(word_letters) > 0:
-        print("The word:", word)
         print('You lost game.')
     else:
-        print("The word:", word)
         print('Congratulation, you win!')
 
 
     
 
 if __name__ == "__main__":
-    hangman(5)
+    hangman()
