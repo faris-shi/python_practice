@@ -1,5 +1,5 @@
 '''
-practice command-line inesweeper
+practice command-line minesweeper game
 @Author: Faris.shi
 '''
 import random
@@ -16,6 +16,7 @@ class SpotType(Enum):
 
 class Spot:
 
+    # init function that defines some default value.
     def __init__(self):
         self.spot_type = SpotType.NORMAL
         self.num_neighbour_bombs = 0
@@ -30,6 +31,11 @@ class Spot:
 
 class Board:
 
+    '''
+    Board class is represented as game board. 
+    And also provides dig function for users to dig bombs
+    '''
+
     def __init__(self, dim_size, num_bombs):
         self.dim_size = dim_size
         self.num_bombs = num_bombs
@@ -37,16 +43,29 @@ class Board:
         self.board = self._make_new_board()
         self._assign_num_neighbour_bombs()
 
-    def dig(self, row, col):            
+    def dig(self, row, col):
+        '''
+        dig bomb for the specific row and col
+        return False, if digging bomb. otherwise return True
+        There are three scenarios
+        1. Return False if digging bomb
+        2. Return True if digging normal spot which is not around bombs
+        3. Need to dig more recursively until one is around bombs, then return True
+        '''          
         spot = self.board[row][col]
+        #scenario 1
         if spot.spot_type == SpotType.BOMB:
             return False
 
+        # increase the number of dug spots
         self.num_dug += 1
         spot.is_dig = True
+
+        #scenario 2
         if spot.num_neighbour_bombs == 0:
             return True
 
+        #scenario 3
         for r in range(row - 1, row + 1 + 1):
             for c in range(col - 1, col + 1 + 1):
                 if r == row and c == col:
@@ -60,6 +79,9 @@ class Board:
         return True
         
     def _make_new_board(self):
+        '''
+        create a new board, and plant bombs
+        '''
         board = [[Spot() for _ in range(self.dim_size)] for _ in range(self.dim_size)]
 
         num_bombs = 0
@@ -74,6 +96,9 @@ class Board:
         return board
 
     def _assign_num_neighbour_bombs(self):
+        '''
+        to compute the number of bombs surrounding spots in advance. it will save much time in the dig function.
+        '''
 
         def do_assignment(row, col):
             num_bombs = 0
