@@ -1,5 +1,5 @@
 # python_practice
-It is a little project that I will practice Python daily.
+It is a daily practicing project.
 
 1. **Hangman**
 
@@ -28,3 +28,7 @@ It is a little project that I will practice Python daily.
 7. ***Minesweeper**
 
    a command-line game of minesweeper
+
+8. **Morse Code**
+  
+   an interesting words game
