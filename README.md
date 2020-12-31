@@ -1,6 +1,9 @@
 # python_practice
 It is a daily practicing project.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/faris-shi/python_practice.git/HEAD)
+
+
 1. **Hangman**
 
    a command-line game that prompt user to guess a word.
