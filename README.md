@@ -1,8 +1,5 @@
 # python_practice
-It is a daily practicing project.
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/faris-shi/python_practice.git/HEAD)
-
+a daily practicing project.
 
 1. **Hangman**
 
@@ -35,3 +32,7 @@ It is a daily practicing project.
 8. **Morse Code**
   
    an interesting words game
+
+9. **Trick Dictory Key**
+
+   to practice that the dictory key must be immutable since I saw a lot of people gave wrong answer
