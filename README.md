@@ -25,7 +25,7 @@ a daily practicing project.
 
    practice famous N-Queens by using backtracking
 
-7. ***Minesweeper**
+7. **Minesweeper**
 
    a command-line game of minesweeper
 
@@ -36,3 +36,7 @@ a daily practicing project.
 9. **Trick Dictory Key**
 
    to practice that the dictory key must be immutable since I saw a lot of people gave wrong answer
+
+10. **TIC TAC TOE**
+
+   a command-line game to practice OOP
