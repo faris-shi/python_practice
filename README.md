@@ -37,6 +37,6 @@ a daily practicing project.
 
    to practice that the dictory key must be immutable since I saw a lot of people gave wrong answer
 
-10. **TIC TAC TOE**
+9. **TIC TAC TOE**
 
-   a command-line game to practice OOP
+   a command-line game of tic-tac-toe to practice OOP
