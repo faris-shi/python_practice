@@ -40,3 +40,6 @@ a daily practicing project.
 9. **TIC TAC TOE**
 
    a command-line game of tic-tac-toe to practice OOP
+10. **Binary Search**
+
+   implements binary search through out two ways
