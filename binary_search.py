@@ -18,7 +18,7 @@ def binary_search(sorted_list, target):
 # implements binary search by using loop
 def binary_search_2(sorted_list, target):
     start_index = 0
-    end_index = len(sorted_list)
+    end_index = len(sorted_list) - 1
     
     while start_index <= end_index:
         mid_index = (start_index + end_index) // 2
