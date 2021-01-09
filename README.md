@@ -3,48 +3,48 @@ a daily practicing project.
 
 1. **Hangman**
 
-   a command-line game that prompt user to guess a word.
+    a command-line game that prompt user to guess a word.
 
 2. **Sudoku**
 
-   an example about figuring out the backtracking algorithm. including how to build a sudoku, how to mask several blocks and how to solve it.
+    an example about figuring out the backtracking algorithm. including how to build a sudoku, how to mask several blocks and how to solve it.
 
 3. **Sets Operation**
 
-   practice sets operations such as `|`, `^`, `-`, `&`.
+    practice sets operations such as `|`, `^`, `-`, `&`.
 
 4. **Snake Game**
 
-   a gui game using pygame.
+    a gui game using pygame.
 
 5. **Permutations**
 
-   practice permutations by using backtracking
+    practice permutations by using backtracking
 
 6. **N-Queens**
 
-   practice famous N-Queens by using backtracking
+    practice famous N-Queens by using backtracking
 
 7. **Minesweeper**
 
-   a command-line game of minesweeper
+    a command-line game of minesweeper
 
 8. **Morse Code**
   
-   an interesting words game
+    an interesting words game
 
 9. **Trick Dictory Key**
 
-   to practice that the dictory key must be immutable since I saw a lot of people gave wrong answer
+    to practice that the dictory key must be immutable since I saw a lot of people gave wrong answer
 
-9. **TIC TAC TOE**
+10. **TIC TAC TOE**
 
-   a command-line game of tic-tac-toe to practice OOP
+    a command-line game of tic-tac-toe to practice OOP
 
-10. **Binary Search**
+11. **Binary Search**
 
-   implements binary search through out two ways
+    implements binary search through out two ways
 
-11. **Words Graph**
+12. **Words Graph**
 
-   represent a sentence as a graph with direction and weight.
+    represent a sentence as a graph with direction and weight.
