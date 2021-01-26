@@ -48,3 +48,7 @@ a daily practicing project.
 12. **Words Graph**
 
     represent a sentence as a graph with direction and weight.
+
+13. **strip implements**
+
+    simply way to implement strip of str to remove white space
