@@ -51,4 +51,8 @@ a daily practicing project.
 
 13. **strip implements**
 
-    simply way to implement strip of str to remove white space
+    easy way to implement strip of str to remove white space
+
+14. **Pascal's triangle**
+    
+    implement Pascal's triangle by using generator.
