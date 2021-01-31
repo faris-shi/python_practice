@@ -60,3 +60,11 @@ a daily practicing project.
 15. **str to float**
 
     convert str to float by using reduce mechanism
+
+16. **prime number**
+
+    generate all possible prime numbers by using the Sieve of Eratosthenes algorithm
+
+17: **filter palindrome**
+
+    two easy ways to filter palindrome numbers.
