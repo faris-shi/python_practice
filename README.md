@@ -56,3 +56,7 @@ a daily practicing project.
 14. **Pascal's triangle**
     
     implement Pascal's triangle by using generator.
+
+15. **str to float**
+
+    convert str to float by using reduce mechanism
