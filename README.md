@@ -65,6 +65,7 @@ a daily practicing project.
 
     generate all possible prime numbers by using the Sieve of Eratosthenes algorithm
 
-17: **filter palindrome**
-
+17. **filter palindrome**
+    
     two easy ways to filter palindrome numbers.
+
