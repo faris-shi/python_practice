@@ -69,3 +69,15 @@ a daily practicing project.
     
     two easy ways to filter palindrome numbers.
 
+18. **attrgetter vs itemgetter**
+
+    compare operator.attrgetter with operator.itemgetter
+
+19. **remote duplicate items**
+
+    remote duplicate items from sequence and keep order, notify hashable issue.
+
+20. **Find Most Frequently Occurring**
+
+    Determining the Most Frequently Occurring Items in a Sequence by using collections.Counter
+    
